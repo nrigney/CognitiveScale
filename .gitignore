@@ -1,47 +1,24 @@
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
+*.class
+*.log
 
-# Folder config file
-Desktop.ini
+# sbt specific
+.cache
+.history
+.lib/
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
+# Scala-IDE specific
+.scala_dependencies
+.worksheet
+.classpath
+.project
+.settings
+/bin/
 
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
-
-# Windows shortcuts
-*.lnk
-
-# =========================
-# Operating System Files
-# =========================
-
-# OSX
-# =========================
-
-.DS_Store
-.AppleDouble
-.LSOverride
-
-# Thumbnails
-._*
-
-# Files that might appear in the root of a volume
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
-
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
+.cache-main
+.cache-tests
